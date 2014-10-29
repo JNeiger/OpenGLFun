@@ -1,0 +1,10 @@
+#version 330 core
+
+in vec4 gl_FragCoord;
+// Ouput data
+out vec3 color;
+
+void main()
+{
+	color = vec3(gl_FragCoord.x,gl_FragCoord.y,gl_FragCoord.z / gl_FragCoord.w);//vec3( .62,.62,.62 );
+}

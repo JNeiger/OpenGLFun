@@ -1,0 +1,18 @@
+﻿Build started 4/7/2014 7:32:02 PM.
+     1>Project "C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\OpenGL3TimesTheCharm\OpenGL3TimesTheCharm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /I"C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\OpenGL3TimesTheCharm" /I"D:\opengl-wrappers\glm\glm\glm" /I"D:\opengl-wrappers\glew\include" /I"D:\opengl-wrappers\glfw\include" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\joseph\documents\visual studio 2013\projects\opengl3timesthecharm\opengl3timesthecharm\main.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\joseph\documents\visual studio 2013\projects\opengl3timesthecharm\opengl3timesthecharm\main.cpp(154): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\joseph\documents\visual studio 2013\projects\opengl3timesthecharm\opengl3timesthecharm\main.cpp(326): warning C4305: '=' : truncation from 'double' to 'float'
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\Debug\OpenGL3TimesTheCharm.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\opengl-wrappers\glew\lib" /LIBPATH:"D:\opengl-wrappers\glfw\lib-msvc120" /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" opengl32.lib glu32.lib glew32.lib glfw3.lib "C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86\Kinect10.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\Debug\OpenGL3TimesTheCharm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\Debug\OpenGL3TimesTheCharm.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         OpenGL3TimesTheCharm.vcxproj -> C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\Debug\OpenGL3TimesTheCharm.exe
+     1>Done Building Project "C:\Users\Joseph\Documents\Visual Studio 2013\Projects\OpenGL3TimesTheCharm\OpenGL3TimesTheCharm\OpenGL3TimesTheCharm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.45
